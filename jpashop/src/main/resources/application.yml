@@ -7,14 +7,14 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
     properties:
       hibernate:
         # show_sql: true
         format_sql: false
   devtools:
     restart:
-      enabled: true
+      enabled: false
 logging.level:
   org.hibernate.SQL: debug
   # org.hibernate.type: trace #??? ?? 2.x, hibernate5
